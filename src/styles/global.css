@@ -1,0 +1,53 @@
+*{
+    border: 0; /* borda do elemento ->zeramos*/
+    margin: 0;/* Distancia externa ->zeramos*/
+    padding: 0; /* espaçamento interno->zeraomos*/
+    box-sizing: border-box ;/* respeitar largura e altura ->zeramos*/
+}
+
+
+/*--------VARIAVEIS CSS -----------------*/
+
+:root{
+
+/*-----cores---*/
+
+
+--color-white:#FFFFFF;/*Variavel cor*/
+--color-blue: #1090CB;/*Variavel cor*/
+--color-blue-10:#1090CB1a;/*Variavel cor*/
+--color-gray:#5C5C5C;/*Variavel cor*/
+--color-gray-2:#969696;/*Variavel cor*/
+--color-gray-3:#C4C4C4;/*Variavel cor*/
+--color-gray-4:#C4C4C4;/*Variavel cor*/
+-color-black:#000000;/*Variavel cor*/
+
+
+/*--- fontes-- */
+
+--font-size-h1: 35px;/*Variavel tamanho da fonte*/
+--font-size-h2: 30px;/*Variavel tamanho da fonte*/
+--font-size-h3: 25px;/*Variavel tamanho da fonte*/
+--font-size-h4: 18px;/*Variavel tamanho da fonte*/
+--font-size-body: 16px;/*Variavel tamanho da fonte*/
+--font-size-button: 16px;/*Variavel tamanho da fonte*/
+--font-size-capition: 14px;/*Variavel tamanho da fonte*/
+
+
+/* ---- Weigth ------- */
+
+--font-weigth: h1:600;/*Variavel Espessura da fonte*/
+--font-weigth: h2:600;/*Variavel Espessura da fonte*/
+--font-weigth: h3:600;/*Variavel Espessura da fonte*/
+--font-weigth: h4:500:/*Variavel Espessura da fonte*/
+--font-weigth: body:400;/*Variavel Espessura da fonte*/
+--font-weigth: button :700;/*Variavel Espessura da fonte*/
+--font-weigth: capition:400;/*Variavel Espessura da fonte*/
+
+/*-- Fonte Family */
+
+--font-family-primary:"Poppins", sans-serif;
+
+}
+    
+
