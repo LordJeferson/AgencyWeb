@@ -39,13 +39,96 @@ header{
 
 .btn-header{
 
-    font-family: var(--font-family-primary);/*familia da fonte*/
+    font-family: var(--family-primary);/*familia da fonte*/
     text-decoration: none;/*decoraçao de texto*/
     background-color: var(--color-blue);/*cor de fundo*/
     color: var(--color-white);/*cor de tex*/
     border-radius: 10px;/*arrendondamento*/
     padding: 10px 20px 10px 20px;/*espacamentro interno*/
-    font-weight: var(--font-weigth-button );/*espaçamento da fonte*/
+    font-weight: var(--font-weigth-button);/*espaçamento da fonte*/
 
 
 } 
+
+/* ------------------------ MAIN-------------------*/
+
+
+main{
+
+    display: flex;/*para que o grupo fique ao lado do outro*/
+    align-items: center;/*centraliza na horizontal*/
+    justify-content: center;/*centraliza na vertical*/
+    gap: 50px; /*Distancia entre os elementos*/
+    background-color: var(--color-blue-10);/*cor de fundo*/
+    padding:50px 0;
+}
+.main-content{
+
+    display: flex;/*para que o grupo fique ao lado do outro*/
+    flex-direction: column;/*deixar em coluna*/
+    gap: 30px;/*espaçamento entre os elementos*/
+    width: 520px;
+}
+
+.main-content h1 span{
+
+    color: var(--color-blue);
+
+}
+.main-content h1{
+
+   font-size:var(--font-size-h1);
+   font-family:var(--font-family-primary);
+   font-weight: var(--font-weigth-h1);
+
+}
+.main-content p{
+    
+   font-family: var(--font-family-primary);
+   font-size: var(--font-size-body);
+   font-weight: var(--font-weigth-body);
+   color: var(--color-gray);
+   line-height: 30px;
+}
+.conteiner-cta{
+   display: flex;
+   gap: 10px;
+
+}
+
+.btn-primary, .btn-secondary{
+    font-family: var(--family-primary);/*familia da fonte*/
+    text-decoration: none;/*decoraçao de texto*/
+    padding: 8px 55px;/*Espaçamento interno*/
+    border-radius: 10px;/*arredondamento da borda*/
+    font-weight: var(--font-weigth-button);/*espesura da fonte*/
+    text-decoration: none;/*decoraçao do texto*/
+    font-family:var(--family-primary);/*familia da fonte*/
+}
+
+
+
+
+.btn-primary{
+
+    background-color: var(--color-blue);/*cor de fundo*/
+    color: var(--color-white);/*cor de tex*/
+    border-radius: 10px;/*arrendondamento da borda*/
+    transition: 0.3;/*tempo de transiçao do elemento*/
+
+}
+.btn-primary:hover{
+
+    background-color:#005e89;
+}
+
+.btn-secondary{
+    background-color: var(--color-white);/*cor de fundo*/
+    color: var(--color-blue);/*cor de tex*/
+    border-radius: 10px;/*arrendondamento*/   
+    transition: 0.3;/*tempo do botao*/ 
+}
+.btn-secondary:hover{
+
+  background-color: #e6e6e6;;
+}
