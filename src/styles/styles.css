@@ -1,2 +1,51 @@
 @import url("./global.css");
 
+header{
+
+    display: flex; /*para que o grupo fique ao lado do outro */
+    justify-content: space-between;/*colocar nas extremidades*/
+    align-items: center;/*centralizar na vertical*/
+    padding: 30px;/*espaçamento interno*/
+    border-bottom: 0.7px solid var(--color-gray-3);/*bord inferior*/
+
+}
+
+.container-nav-header{
+   
+    display: flex; /*para que o grupo fique ao lado do outro */
+    align-items: center;/* centralizar */
+    gap: 70px; /*Distancia entre os elementos*/
+}
+
+.navigation-header ul{/*So vai estilizar as tags UL que estiverem dentro do navegation-header */
+   
+    display: flex; /*para que o grupo fique ao lado do outro */
+    gap: 40px; /*Distancia entre os elementos*/
+    list-style: none;/*remover a bolinha*/
+
+}
+
+.navigation-header ul li a{
+
+    text-decoration: none;/*decoraçao de texto*/
+    color: var(--color-black);/* cor do texto*/
+    font-family: var(--font-family-primary);/*familia da fonte*/
+}
+
+.menu-active{
+     
+    color: var(--color-blue) !important;
+}
+
+.btn-header{
+
+    font-family: var(--font-family-primary);/*familia da fonte*/
+    text-decoration: none;/*decoraçao de texto*/
+    background-color: var(--color-blue);/*cor de fundo*/
+    color: var(--color-white);/*cor de tex*/
+    border-radius: 10px;/*arrendondamento*/
+    padding: 10px 20px 10px 20px;/*espa*/
+    font-weight: var(--font-weigth-button );
+
+
+} 
