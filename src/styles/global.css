@@ -20,7 +20,7 @@
 --color-gray-2:#969696;/*Variavel cor*/
 --color-gray-3:#C4C4C4;/*Variavel cor*/
 --color-gray-4:#C4C4C4;/*Variavel cor*/
--color-black:#000000;/*Variavel cor*/
+--color-black:#000000;/*Variavel cor*/
 
 
 /*--- fontes-- */
@@ -36,13 +36,13 @@
 
 /* ---- Weigth ------- */
 
---font-weigth: h1:600;/*Variavel Espessura da fonte*/
---font-weigth: h2:600;/*Variavel Espessura da fonte*/
---font-weigth: h3:600;/*Variavel Espessura da fonte*/
---font-weigth: h4:500:/*Variavel Espessura da fonte*/
---font-weigth: body:400;/*Variavel Espessura da fonte*/
---font-weigth: button :700;/*Variavel Espessura da fonte*/
---font-weigth: capition:400;/*Variavel Espessura da fonte*/
+--font-weigth-h1:600;/*Variavel Espessura da fonte*/
+--font-weigth-h2:600;/*Variavel Espessura da fonte*/
+--font-weigth-h3:600;/*Variavel Espessura da fonte*/
+--font-weigth-h4:500:/*Variavel Espessura da fonte*/
+--font-weigth-body:400;/*Variavel Espessura da fonte*/
+--font-weigth-button:700;/*Variavel Espessura da fonte*/
+--font-weigth-capition:400;/*Variavel Espessura da fonte*/
 
 /*-- Fonte Family */
 
